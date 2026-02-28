@@ -49,5 +49,7 @@ public class EstRep_Lt01_38
         }
         
         System.out.println("maior = " + maior + "\nmenor = " + menor);
+        
+        scan.close();
     }
 }

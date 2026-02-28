@@ -31,5 +31,7 @@ public class EstRep_Lt01_37
             
             System.out.print(x + ", ");
         }
+        
+        scan.close();
     }
 }
