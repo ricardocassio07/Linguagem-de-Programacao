@@ -15,19 +15,19 @@ public class EstRep_Lt01_45
     {
         double resultado = 0;
         
-        for (int i = 1; i <= 15; i++)
+        for (double i = 1; i <= 15; i++)
         {
-            // Se i for ímpar, soma. Se for par, subtrai.
-            if (i % 2 != 0)
+            if ((i % 2) == 0)
             {
-                resultado += (1.0 / i);
+                resultado -= (i / Math.pow(i, 2));
             }
             else
             {
-                resultado -= (1.0 / i);
+                resultado += (i / Math.pow(i, 2));
             }
+            
         }
         
-        System.out.printf("O resultado da série é: %.4f%n", resultado);
+        System.out.println(resultado);
     }
 }
