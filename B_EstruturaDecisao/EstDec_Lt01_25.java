@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /*
    25. Receba a hora de início e de final de um jogo (HH,MM), calcular o tempo do jogo em horas e minutos, sabendo que o tempo máximo 
-   é menor que 24 horas e pode começar num dia e terminar noutro.
+   é menor que 24 horas e pode começar num dia e terminar no outro.
    Programador: Cássio
    Data: 20/02/2026
 */
