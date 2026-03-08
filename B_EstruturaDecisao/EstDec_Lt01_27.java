@@ -19,12 +19,13 @@ public class EstDec_Lt01_27
     }
     public static void main(String args[])
     {
-        double numVoltas, extensao, tempo, VM;
+        int numVoltas;
+        double extensao, tempo, VM;
         
         Scanner scan = new Scanner(System.in);
         
         print("Numero de voltas:");
-        numVoltas = scan.nextDouble();
+        numVoltas = scan.nextInt();
         print("Extensao do circuito (em metros):");
         extensao = scan.nextDouble();
         print("Tempo de duracao (em minutos):");

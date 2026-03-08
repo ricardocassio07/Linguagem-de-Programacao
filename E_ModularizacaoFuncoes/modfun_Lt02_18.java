@@ -4,10 +4,43 @@
  */
 package E_ModularizacaoFuncoes;
 
-/**
- *
- * @author FATEC ZONA LESTE
- */
-public class modfun_Lt02_18 {
+import java.util.Scanner;
+
+/*
+    18. Receba dois valores inteiros. Calcule e mostre o resultado da diferença do maior pelo menor.
+    Programador: Cássio
+    Data: 08/03/2026
+*/
+public class modfun_Lt02_18 
+{
+    public static void main(String args[])
+    {
+        int a, b, diferenca;
     
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.println("Digite um numero inteiro:");
+        a = scan.nextInt();
+        
+        System.out.println("Digite outro numero inteiro:");
+        b = scan.nextInt();
+        
+        diferenca = calcular(a, b);
+        
+        System.out.println("A diferenca entre " + a + " e " + b + " e igual a " + diferenca);
+        
+        scan.close();
+    }
+    
+    static int calcular(int x, int y)
+    {
+        if (x > y)
+        {
+            return (x - y);
+        }
+        else
+        {
+            return (y - x);
+        }
+    }
 }
