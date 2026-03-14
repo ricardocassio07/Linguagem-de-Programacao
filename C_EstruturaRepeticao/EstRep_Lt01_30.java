@@ -62,6 +62,13 @@ public class EstRep_Lt01_30
             if (diaAtual < diaNas)
             {
                 mesAtual--;
+                
+                if (mesAtual == 0)
+                {
+                    mesAtual = 12;
+                    anoAtual--;
+                }
+                
                 int diasMesAnterior;
                 
                 // Descobre dias do mês anterior:
@@ -89,7 +96,7 @@ public class EstRep_Lt01_30
             }
             
             // Ajuste de meses:
-            if (mesAtual < mesAtual)
+            if (mesAtual < mesNas)
             {
                 anoAtual--;
                 mesAtual += 12;

@@ -9,7 +9,7 @@ import java.util.Scanner;
     27. Receba o número de voltas, a extensão do circuito (em metros) e o tempo de duração (minutos). Calcule e mostre a 
     velocidade média em Km/h.
     Programador: Cássio
-    Data: 22/02/20o26
+    Data: 22/02/2026
 */
 public class EstDec_Lt01_27 
 {
