@@ -63,10 +63,12 @@ public class mat_Lt02_05
                         {
                             if (j == 3)
                             {
+                                // Rainha:
                                  tabuleiro[i][j] = 5;
                             }
                             else
                             {
+                                // Rei:
                                 tabuleiro[i][j] = 6;
                             }
                         }
@@ -74,10 +76,12 @@ public class mat_Lt02_05
                         {
                             if (j == 3)
                             {
+                                // Rei:
                                 tabuleiro[i][j] = 6;
                             }
                             else
                             {
+                                // Rainha:
                                 tabuleiro[i][j] = 5;
                             }
                         }
